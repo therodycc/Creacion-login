@@ -1,6 +1,6 @@
 body {
 	width: 100%;
-	height: 100vh;	
+	height: 100vh;
 	background-image: url(imagenes/f4.jpg);
 	background: #000000;
 	/* fallback for old browsers */
@@ -17,7 +17,8 @@ body {
 
 	box-sizing: border-box;
 }
-nav{
+
+nav {
 	margin-top: 0;
 	width: 100%;
 	height: 15vh;
@@ -26,17 +27,18 @@ nav{
 	justify-content: flex-end;
 
 }
-nav h1{
+
+nav h1 {
 
 	font-family: 'Comfortaa', cursive;
 	color: #6198d786;
-	font-size: 25px;	
+	font-size: 25px;
 	padding-right: 10px;
-	 
+
 
 }
 
-nav i{
+nav i {
 	font-size: 25px;
 	color: #80f8e8;
 	padding-right: 105px;
@@ -46,8 +48,8 @@ nav i{
 
 
 
-.inicio{
-	overflow: scroll;	
+.inicio {
+	overflow: scroll;
 	width: 100%;
 	height: 75vh;
 	display: flex;
@@ -56,7 +58,7 @@ nav i{
 	overflow: hidden;
 }
 
-.contenido {
+form {
 	width: 350px;
 	/* height: 280px; */
 	background-color: none;
@@ -64,9 +66,9 @@ nav i{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #ffffff; 
-	border-top-left-radius:100px;
-border-bottom-right-radius: 100px;
+	background-color: #ffffff;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
 }
 
 
@@ -81,46 +83,48 @@ border-bottom-right-radius: 100px;
 	align-items: center;
 	background: none;
 	border-radius: 50%;
-	box-shadow: 0 0 20px  #2181f0;
-	
+	box-shadow: 0 0 20px #2181f0;
+
 
 }
 
-.logo i{
+.logo i {
 	font-size: 50px;
-	text-shadow: 0 0 20px  #134175 	;
+	text-shadow: 0 0 20px #134175;
 	color: #004189;
 }
 
 
-.contenido h1 {
+form h1 {
 	font-size: 30px;
 	/* font-weight: 500; */
 	color: #6199D7;
 }
 
-.contenido input {
+form input {
 	font-size: 17px;
-	width: 70%;
+	width: 71%;
 	outline: none;
 	padding: 9px 15px;
 	border-radius: 50px;
 	margin-bottom: 15px;
 	/* border: 2px solid #0a539765 ; */
-	border: 2px solid #d5e1f09a ;
-	background:none;
+	border: 2px solid #d5e1f09a;
+	background: none;
 	transition: .7s ease-out;
 	color: #6199D7;
 }
 
-.contenido input::placeholder { color: #6198d78f; }
+form input::placeholder {
+	color: #6198d78f;
+}
 
-.contenido input:focus {
+form input:focus {
 	border: 2px solid #6198d79a;
 }
 
-.contenido button {
-	width: 79%;
+form button {
+	width: 80%;
 	padding: 14px;
 	border-radius: 50px;
 	border: none;
@@ -131,20 +135,20 @@ border-bottom-right-radius: 100px;
 	color: white;
 }
 
-.contenido button:hover {
+form button:hover {
 	transform: scale(1.1);
 	background-color: #0E1634;
 	cursor: pointer;
 }
 
-.contenido a {
+form a {
 	font-size: 14px;
 	color: #5f6c9c;
 	text-align: center;
 
 }
 
-footer{
+footer {
 	width: 100%;
 	height: 10vh;
 	display: flex;
@@ -152,13 +156,10 @@ footer{
 	align-items: center;
 }
 
-footer h3{
+footer h3 {
 	font-family: 'Comfortaa', cursive;
 	margin-left: 30px;
 	font-size: 15px;
 	color: #eeeeee3a;
 	font-weight: 300;
 }
-
-
-
